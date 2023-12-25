@@ -21,6 +21,7 @@ interface Params {
 
 export async function generateMetadata(params: Params): Promise<Metadata> {
   const post = await getData(params)
+  const siteURL = 'http://localhost:3002'
 
   if (!post) {
     return {}
@@ -29,6 +30,9 @@ export async function generateMetadata(params: Params): Promise<Metadata> {
   return {
     title: post.title,
     description: post.description,
+    alternates: {
+      canonical: `${siteURL}/posts/${post.slug}`
+    },
     openGraph: {
       title: post.title,
       description: post.description,
