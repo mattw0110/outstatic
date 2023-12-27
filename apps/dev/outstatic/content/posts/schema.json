@@ -5,7 +5,12 @@
     "tags": {
       "required": true,
       "description": "Add tags to the post",
-      "values": [],
+      "values": [
+        {
+          "value": "fortnite",
+          "label": "Fortnite"
+        }
+      ],
       "fieldType": "Tags",
       "dataType": "array",
       "title": "Tags"

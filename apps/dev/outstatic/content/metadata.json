@@ -1,6 +1,6 @@
 {
-  "commit": "7481076fb746d08ec90fdb98f13515411a8ac733",
-  "generated": "Wed, 27 Dec 2023 20:55:57 GMT",
+  "commit": "9af7e7f9831a4af79a0a80929cd505145fbcd477",
+  "generated": "2023-12-27T21:24:34.664Z",
   "metadata": [
     {
       "__outstatic": {
@@ -42,6 +42,30 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "9af7e7f9831a4af79a0a80929cd505145fbcd477",
+        "hash": "630365196",
+        "path": "outstatic/content/posts/lego-fortnite.md"
+      },
+      "author": {
+        "name": "Matthew White",
+        "picture": "https://avatars.githubusercontent.com/u/35909871?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/lego-fortnite-c5NT.png",
+      "description": "Dive into a world where creativity meets adventure with LEGO® Fortnite. It's more than just a game; it's an imaginative journey through a universe built brick",
+      "publishedAt": "2023-12-27T20:45:46.283Z",
+      "slug": "lego-fortnite",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Fortnite",
+          "value": "fortnite"
+        }
+      ],
+      "title": "LEGO® Fortnite: A Brick-Building Adventure"
     }
   ]
 }
