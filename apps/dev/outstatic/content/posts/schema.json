@@ -3,7 +3,7 @@
   "type": "object",
   "properties": {
     "tags": {
-      "required": false,
+      "required": true,
       "description": "Add tags to the post",
       "values": [],
       "fieldType": "Tags",
