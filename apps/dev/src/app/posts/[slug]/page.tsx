@@ -86,9 +86,9 @@ export default async function Post(params: Params) {
             {post?.author?.name || ''}.
           </div>
           <hr className="border-neutral-200 mt-10 mb-10" />
-          <div className="max-w-2xl mx-auto">
+          <div className="max-w-full mx-auto">
             <div
-              className="prose lg:prose-xl"
+              className="max-w-full prose lg:prose-xl"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           </div>
